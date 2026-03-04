@@ -1,0 +1,11 @@
+# R specific ignores
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+*.Rmd
+*.Rhistory
+*.RData
+*.Ruserdata
+*.Rproj.user/
