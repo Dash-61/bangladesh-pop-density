@@ -1,0 +1,8 @@
+# GitHub Pages Configuration
+
+# Site settings
+url: "https://username.github.io"
+baseurl: ""  # the subpath of your site, e.g. /project
+
+# Build settings
+theme: jekyll-theme-slate
