@@ -1,0 +1,11 @@
+cff-version: 1.0.0
+message: "Citation metadata for Bangladesh Population Density Dataset"
+author:
+  - family-names: "Dash"
+    given-names: "User"
+year: "2026"
+title: "Bangladesh Population Density Dataset"
+description: "A comprehensive dataset on population density in Bangladesh."
+publisher: "Bangladesh Population Studies"
+url: "https://example.com/dataset/bangladesh-pop-density"
+version: "1.0.0"
