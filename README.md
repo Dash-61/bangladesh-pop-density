@@ -1,34 +1,20 @@
-# Bangladesh Population Density Project
+# Population Density in Bangladesh
 
-## Overview
-This project aims to analyze and visualize the population density of Bangladesh, providing valuable insights for researchers, policymakers, and the general public.
-
-## Map Visualization
-![Population Density Map](figs/BGD_Population_Density_Map.png)
-
-## Project Details
-The project utilizes various data sources to gather information on population figures and geographic boundaries. It combines this data to generate a comprehensive map that highlights areas with high and low population densities across Bangladesh.
+This project utilizes satellite-derived population density data specific to Bangladesh, sourced from the **WorldPop Project**. The primary dataset employed is *bgd_pop_2025_CN_1km_R2025A_UA*, which operates at a 1km resolution.
 
 ## Data Sources
-1. **Bangladesh Bureau of Statistics:** Official population data.
-2. **Geocoded datasets:** Geographic boundaries and definitions.
-3. **OpenStreetMap:** Additional geographic context.
+- **WorldPop Project**: This dataset provides up-to-date population estimates derived from satellite imagery and ground-based survey data.
+- **GADM**: Used for defining geographical boundaries with precision.
 
 ## Methodology
-- **Data Collection:** Information was collected from official statistics and open-source maps.
-- **Data Processing:** We cleaned and processed the data to ensure accuracy.
-- **Visualization Tools:** Utilized technologies like (insert tools used) for creating the map visualization.
 
-## Features
-- Interactive map showing population density distributions.
-- Ability to filter data by region, time, etc.
-- Export functionalities for further analysis.
+### Data Collection
+The data is collected from the WorldPop Project, which employs advanced methods for estimating population distributions. Raster data is derived from multiple sources, primarily focusing on urban expansion and demographic trends.
 
-## Future Work
-We aim to enhance this project further by incorporating real-time data and expanding the dataset to include socio-economic factors.
+### Data Processing Steps
+1. **Raster Processing**: The population data is originally in raster format which needs appropriate handling to ensure accuracy during further analysis.
+2. **Density Calculation**: Using the processed raster data, density calculations are performed to ascertain population densities across different districts and regions.
+3. **Smoothing**: Spatial smoothing techniques are applied to minimize fluctuations and ensure coherent population estimates.
+4. **Visualization**: Finally, the processed data is visualized using GIS tools to provide insightful representations of population distributions across Bangladesh.
 
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request to help us improve this project.
-
-## License
-This project is licensed under the MIT License.
+This approach emphasizes the use of WorldPop satellite-derived data, moving away from previous reliance on the Bangladesh Bureau of Statistics. The adoption of such data enhances the reliability and accuracy of population density estimates in the region.
